@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+sitemap:http://cloverleafglobal.in/sitemap.xml
+sitemap:http://cloverleafglobal.in/sitemap-1.xml
+sitemap:http://cloverleafglobal.in/sitemap-2.xml
+sitemap:http://cloverleafglobal.in/sitemap-3.xml
+sitemap:http://cloverleafglobal.in/sitemap-4.xml
+sitemap:http://cloverleafglobal.in/sitemap-5.xml
+sitemap:http://cloverleafglobal.in/sitemap-6.xml
+sitemap:http://cloverleafglobal.in/sitemap-7.xml
+sitemap:http://cloverleafglobal.in/sitemap-8.xml
+sitemap:http://cloverleafglobal.in/sitemap-9.xml
+sitemap:http://cloverleafglobal.in/sitemap-10.xml
+sitemap:http://cloverleafglobal.in/sitemap-11.xml
+sitemap:http://cloverleafglobal.in/sitemap-12.xml
+sitemap:http://cloverleafglobal.in/sitemap-13.xml
+sitemap:http://cloverleafglobal.in/sitemap-14.xml
+sitemap:http://cloverleafglobal.in/sitemap-15.xml
+sitemap:http://cloverleafglobal.in/sitemap-16.xml
+sitemap:http://cloverleafglobal.in/sitemap-17.xml
+sitemap:http://cloverleafglobal.in/sitemap-18.xml
+sitemap:http://cloverleafglobal.in/sitemap-19.xml

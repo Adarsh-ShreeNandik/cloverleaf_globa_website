@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Cloverleaf</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- icon Link-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+  <style>
+    /* ------------------dashboard-------------------- */
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+    .mobile {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+      height: 30;
+    }
+
+
+    /* -------------------about product content------------------------- */
+
+    .blog-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 00px 0px;
+      flex-wrap: wrap;
+    }
+
+    .blog-box {
+      width: 350px;
+      background-color: rgb(255, 255, 255);
+      /* border: 1px solid #cac9c9;  */
+      margin: 20px;
+    }
+
+    .blog-img {
+      width: 100%;
+      height: auto;
+      align-items: center;
+
+    }
+
+    .blog-img img {
+      width: 30%;
+      height: 30%;
+      object-fit: cover;
+      object-position: center;
+      margin-left: 120px;
+
+    }
+
+    .blog-img2 .blog-img2 {
+      width: 10px;
+      height: 20px;
+      object-fit: cover;
+      object-position: center;
+      margin-left: 120px;
+
+    }
+
+
+    .blog-text {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .blog-text span {
+      color: #dc3545;
+      font-size: .9rem;
+
+    }
+
+    .blog-text .blog-title {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #001973;
+      text-align: center;
+
+    }
+
+    .blog-text .blog-title :hover {
+      color: rgb(10, 6, 89);
+      transition: all ease .3s;
+    }
+
+    .blog-text p {
+      color: #5e5d5d;
+      font-size: .9rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin: 20px 0px;
+    }
+
+    .blog-text a {
+      color: rgb(41, 40, 40);
+    }
+
+    .blog-text a:hover {
+      color: #06440e;
+      transition: all ease .3s;
+    }
+
+
+    /* ............................section.................. */
+  </style>
+
+  <!-- =======================================================
+  * Template Name: Logis
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/logo video.gif" class="img-fluid mb-3 mb-lg-0" alt="">
+        <h1>CLOVERLEAF</h1>
+      </a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" >About Us</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> -->
+              <!-- <ul>
+               <li class="dropdown"><a href="#"><span>Product</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
+                <ul>
+                    <li><a href="productdetails.html">Product</a></li>
+                  </ul> -->
+                <!-- </li> -->
+                <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                  <ul>
+                    <li><a href="truecare.html">TrueCare </a></li>
+                    <li><a href="truehaul.html">TrueHaul</a></li>
+                    <li><a href="truesense.html">TrueSense</a></li>
+                    <!-- <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li> -->
+                  </ul>
+                </li>
+              </ul>
+            <li><a href="E-store.html">E-Store</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <!-- <li><a href="pricing.html">Industry</a></li> -->
+            <li class="dropdown"><a href="#"><span>Industry</span> <i
+                  class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <!-- <li class="dropdown"><a href="#"><span>Product</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>  -->
+              <ul>
+                <li><a href="#">Packaging Industry</a></li>
+                <li><a href="#">Food Industry</a></li>
+                <li><a href="#">PEB Industry</a></li>
+                <li><a href="#">Steel Industry</a></li>
+                <li><a href="#">Dairy Plants Industry</a></li>
+              </ul>
+            </li>
+            <li><a href="latestnews.html">Latest Trends /News</a></li>
+          </ul>
+          </li>
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/bg.jpg');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>About Cloverleaf</h2>
+              <!-- <p class=" ABOUT1"> Standards for the Packaging and Converting Industry.
+              Widely said interchangeably as the Fourth Industrial Revolution, Industry 4.0 at its core refers to the “smart”</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Cloverleafs</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+    <br>
+    <br>
+
+
+    <!-- ---------------------------------------------dashboard---------------------------------------- -->
+
+
+    <img src="assets/img/Dashboard image.png" alt="Paris" class="center">
+
+
+
+    <!-- --------------------------------------------content of clverleaf--------------------------------------- -->
+
+
+    <div class="section-header">
+
+      <span>Product Features</span>
+      <h2>Product Features</h2>
+
+    </div>
+
+
+
+    <!-- blog-container  -->
+    <div class="blog-container">
+
+      <!-- box-1 -->
+      <div class="blog-box">
+        <!-- img -->
+        <div class=" blog-img">
+          <img src="assets/img/logo video.gif" alt="blog">
+        </div>
+
+        <!-- text -->
+        <div class="blog-text">
+          <!-- <span> 23 aug 2023</span> -->
+          <a href="#" class="blog-title"> Preventive
+            Maintenance  </a> 
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, voluptatum esse fuga
+            quibusdam qui delectus! Asperiores eaque nesciunt possimus sapiente voluptatem fugit quasi, quam impedit
+            cumque aut, ea saepe! </p>
+          <!-- <a href="#" > Read More</a> -->
+        </div>
+      </div>
+
+
+      <div class="blog-box">
+        <!-- img -->
+        <div class=" blog-img">
+          <img src="assets/img/logo video.gif" alt="blog">
+        </div>
+
+        <!-- text -->
+        <div class="blog-text">
+          <!-- <span> 23 aug 2023</span> -->
+          <a href="#" class="blog-title">Curative
+            Maintenance </a>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, voluptatum esse fuga
+            quibusdam qui delectus! Asperiores eaque nesciunt possimus sapiente voluptatem fugit quasi, quam impedit
+            cumque aut, ea saepe! </p>
+          <!-- <a href="#" > Read More</a> -->
+        </div>
+      </div>
+
+      <div class="blog-box">
+        <!-- img -->
+        <div class=" blog-img">
+          <img src="assets/img/logo video.gif" alt="blog">
+        </div>
+
+        <!-- text -->
+        <div class="blog-text">
+          <!-- <span> 23 aug 2023</span> -->
+          <a href="#" class="blog-title">Predictive
+            Maintenance</a>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, voluptatum esse fuga
+            quibusdam qui delectus! Asperiores eaque nesciunt possimus sapiente voluptatem fugit quasi, quam impedit
+            cumque aut, ea saepe! </p>
+          <!-- <a href="#" > Read More</a> -->
+        </div>
+      </div>
+
+
+
+      <!-- -------------------------------------------------------------------- -->
+      <section class="secctionContent">
+        <div class="txt1">
+          <h2>Lorem ipsum dolor sit amet.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, </h2>
+          <p><i class='bx bxl-facebook-circle'></i>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, .</p>
+          <p><i class='bx bxl-facebook-circle'></i>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, .</p>
+          <p><i class='bx bxl-facebook-circle'></i>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, </p>
+       
+        </div>
+        <div class="img">
+          <img src="./assets/img/mobile img.png" alt="mobileImg">
+        </div>
+        <div class="txt2">
+          <h2>Lorem ipsum dolor sit amet.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, </h2>
+          <p><i class='bx bxl-facebook-circle'></i>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, </p>
+          <p><i class='bx bxl-facebook-circle'></i>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, .</p>
+          <p><i class='bx bxl-facebook-circle'></i>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores debitis, </p>
+        </div>
+      
+    </section>
+
+
+
+    <!-- ---------------------------------------------content of clverleaf---------------------------------------- -->
+
+
+    <section class="secctionContent2">
+      <div class="txtDiv">
+        <h2>At Cloverleaf,
+          we aim to define the future of machine service</h2>
+        <p>Prompt site access due to Hub & Spoke.</p>
+        <p>Dashboards on Devices helps simultaneous
+           communication.</p>
+           <p>‘No Cure No Pay’
+            Guarantee from the best.*</p>
+            <p>Subscription Service
+              creates hassle free Service</p>
+      </div>
+      <div class="txtImg">
+        <img src="./assets/img/Desl-01.png" alt="error">
+      </div>
+    </section>
+
+    <!-- footer section....................................................... -->
+
+   
+    <footer id="footer" class="footer">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              
+          <img src="assets/img/logo video.gif" class="img-fluid mb-3 mb-lg-0" alt="">
+          <span>CLOVERLEAF</span>
+            </a>
+            <p>Cloverleaf is led by a group of experienced founding members rich in industry and management experience. Not only in India but also abroad.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+  
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">E-Store</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+  
+    
+  
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              202, 2nd Floor, Tower-C, ITHUM, <br>
+  Plot No. A-40, Sector 62, Noida, <br>
+  Gautam Buddha Nagar, U.P. 201301 <br>
+              <strong>Phone:</strong> +91 9911786123<br>
+              <strong>Email:</strong> contact@cloverleafglobal.in<br>
+            </p>
+  
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="container mt-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>CLOVERLEAF</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+    
+          Designed by <a href="#">Shree Nandik Technology</a>
+        </div>
+      </div>
+  
+    </footer>
+    
+  
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+    <div id="preloader"></div>
+  
+  
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+  
+    <script src="assets/js/main.js"></script>
+  
+  </body>
+  
+  </html>
+  
+  
+
+</body>
+
+</html>

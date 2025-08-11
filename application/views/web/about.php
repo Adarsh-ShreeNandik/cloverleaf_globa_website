@@ -1,0 +1,609 @@
+<style>
+.breadcrumbs .page-header {
+    margin-top: 1px
+}
+
+.row.gy-4.abut-row-gy-4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+h3.color-txt {
+    font-size: 2.75rem;
+    color: #009649;
+}
+
+.col-lg-6.position-relative.align-self-start.order-lg-last.order-first.col-full-width {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.col-lg-6.content.order-last.order-lg-first.col-full-width {
+    width: 100%;
+
+    /* padding-top: 15px; */
+}
+
+.ul-none {
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.ul-none li {
+    list-style: none;
+    /* padding-top:10px; */
+}
+
+.col-lg-6.content.order-last.order-lg-first.col-full-width.bprder-div {
+    border: 1px solid blue;
+    border-radius: 30px;
+    margin-top: 25px;
+    background: #2424a5;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 18px;
+}
+
+h3.color-txt.hpadding {
+    padding: 50px 0;
+}
+
+h3.color-txt.pd-top {
+    padding-top: 20px;
+}
+
+section#about {
+    padding: 0px 0;
+}
+
+.section-header {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+.section-header span {
+    top: 35px;
+
+}
+
+.features .features-item .ul-none li {
+    list-style: none;
+    padding-bottom: 0px !important;
+}
+
+.txt-colp {
+
+    font-size: 18px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.col-md-12 h6 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #038466;
+}
+
+.box-height {
+    /* height: 10vh; */
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.bg-mypink {
+    background-color: #e88899;
+}
+
+.bg-myyellow {
+    background-color: #c0c00b;
+}
+
+.hviolet {
+    font-weight: 700;
+    color: violet;
+    margin-bottom: 30px;
+}
+
+.hblacklight {
+    color: #777777;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hgreen {
+    font-weight: 700;
+    color: #038466;
+}
+
+ul.shape-sec {
+    display: flex;
+    list-style: none;
+}
+
+.border-bottom-link:hover{
+    border-bottom:1px solid #009649;
+}
+.border-bottom-link{
+    font-size:15px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+ol.num li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    top: -44px !important;
+
+    left: -165px !important;
+    font-size: 125px !important;
+}
+ol.num li {
+    
+    padding: 6px 18px 0 30px !important;
+    height: 110px !important;
+    
+    font-size: 18px !important;
+}
+
+/* Mobile screen shadow Text hide  */
+@media (max-width: 700px) {
+  .dis-none{
+    display: none !important;
+    /* color: #dc3545 !important; */
+  }
+}
+</style>
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <div class="page-header d-flex align-items-center mb-0"
+            style="background-image: url('<?=base_url("assets/img/bg.jpg");?>');">
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h2>About Us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li>About Us</li>
+                </ol>
+            </div>
+        </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= About Us Section ======= -->
+    <!-- ------------------------------------------------------------------------------------------------- -->
+    <section id="features" class="features">
+        <div class="container">
+
+            <div class="section-header" id="overview">
+
+                <span class="dis-none">Industry OverView</span>
+                <h2>Industry OverView</h2>
+
+            </div>
+
+            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+
+                <div class="col-md-12 col-lg-6 txt-colp">
+                    <p>
+                        The printing, converting and packaging industry has been in existence for a long while now.
+                        Some estimates put the figure at 2.5 lakh units* on an All-India basis.
+                        Making it one of the largest in the world. 2022 saw 413 Bn** packaging units being fed in to the
+                        market, translating to revenue of ~ 79.1 Bn USD** with a CAGR of 12.6%.
+                    </p>
+                    <p>
+                        World class technology and equipment form the cornerstone, on which the industry depends, for
+                        their revenue. Added on to this is better capacity utilization.
+                    </p>
+                    <a class="border-bottom-link" href="aifmp.org">** www.aifmp.org</a><br>
+                    <a class="border-bottom-link" href="https://www.mordorintelligence.com/industry-reports/packaging-industry-in-india">
+                ** www.mordorintelligence.com/industry-reports/packaging-industry-in-india</a>
+                </div>
+                <div class=" col-md-12 col-lg-6">
+                    <img src="<?=base_url("assets/img/didyouknow.png"); ?>" class="img-fluid" alt="">
+                </div>
+
+            </div>
+
+            <div class="section-header" id="characteristics">
+
+                <span class="dis-none">Industry Characteristics</span>
+                <h2>Industry Characteristics</h2>
+            </div>
+
+            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+
+                <div class=" col-md-12 col-lg-6">
+                    <img src="<?=base_url("assets/img/about2.png"); ?>" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-12 col-lg-6 txt-colp">
+                    <p> Printing, converting and packaging is a capital-intensive industry with high asset turnover
+                        ratio. </p>
+                    <h6>Industry Plagued by:</h6>
+                    <ul class="ul-none txt-colp">
+                        <li><i class="bi bi-check"></i> Low-capacity utilisation</li>
+                        <li><i class="bi bi-check"></i> Low productivity</li>
+                        <li><i class="bi bi-check"></i> High machine downtime</li>
+                        <li><i class="bi bi-check"></i> Low EBIDTA</li>
+                        <!-- <li><i class="bi bi-check"></i> Maintenance Calendar and Quick Access</li>
+              <li><i class="bi bi-check"></i> Machine Guides  & Sensor/IoT Records </li>
+              <li><i class="bi bi-check"></i> Histroy of Machine Performance</li> -->
+                    </ul>
+
+                    <div class="col-lg-6 content order-last  order-lg-first col-full-width txt-colp">
+                        <p> This is further intensified with delayed collections from clients accentuating an acute
+                            working capital issue.
+                            Questions the industry is confronted with today is: </p>
+                    </div>
+                    <ul class="ul-none txt-colp">
+                        <li><i class="bi bi-check"></i> Should capex be deferred?</li>
+                        <li><i class="bi bi-check"></i> How do I enhancesales, to better total margins?</li>
+                        <li><i class="bi bi-check"></i> How do I increase profitability?</li>
+                    </ul>
+
+                </div>
+            </div><!-- Features Item -->
+            <div class="col-lg-6 content order-last  order-lg-first col-full-width txt-colp">
+                <p> Optimization, better capacity utilization are all important factors for the health of the industry.
+                    In order to stay competitive within the industry, it needs to have </p>
+            </div>
+            <ul class="ul-none txt-colp">
+                <li><i class="bi bi-check"></i> Higher machine uptime</li>
+                <li><i class="bi bi-check"></i> Waste reduction mechanism</li>
+                <li><i class="bi bi-check"></i> Reduction quality complaints</li>
+                <li><i class="bi bi-check"></i> Commit themselves to enhanced deliveries</li>
+            </ul>
+            <div class="col-lg-6 content order-last  order-lg-first col-full-width bprder-div txt-colp">
+                <p>Cloverleaf Global Solutions Private Limited has been formed just for this purpose.
+                    It brings in industry 4.0 standards to help improve productivity of your printing, converting and
+                    packaging assets.
+                    Be it of any make – Indian or International. </p>
+            </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+
+            <div class="section-header" id="industry-significance" >
+
+                <span class="dis-none">Industry Significance</span>
+                <h2>Industry Significance</h2>
+
+            </div>
+
+            <div class="row gy-4 align-items-center features-item" id="trucare" data-aos="fade-up">
+
+                <div class=" col-md-12 col-lg-5 img-truhaulw d-flex justify-content-center">
+                    <img src="<?=base_url("assets/img/newChar.png"); ?>" class="w-75  img-fluid img-truhaul " alt="">
+                </div>
+
+                <div class="col-md-12 col-lg-7">
+					<div class="row">
+						<div class="col-12">
+						<h5 class="hgreen ">Industry Relevance Printing, Converting and Packaging</h5>
+                   
+						</div>
+					</div>
+                    <div class="row">
+                        <div class="col-md-6 custom-spacing">
+                            <div class="row">
+							  <div class="col-lg-12 col-sm-12 box-height">
+								<h5 class="hviolet">Functionality Drivers</h5>
+                                    <div class="card bg-mypink text-black">
+                                        <div class="card-body fs-6 text">Communication Channel</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-mypink text-black">
+                                        <div class="card-body fs-6 text">Transportation Convenience</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-mypink text-black">
+                                        <div class="card-body fs-6 text">Options for Security</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-mypink text-black">
+                                        <div class="card-body fs-6 text">Shelf Life Duration</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-mypink text-black">
+                                        <div class="card-body fs-6 text">Protection/ Preservation</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-mypink text-black">
+                                        <div class="card-body fs-6 text">Storage/ Carrying</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-mypink text-black">
+                                        <div class="card-body fs-6 text">Billing Convenience</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row">
+
+                                <h5 class="hblacklight">Demand Drivers</h5>
+                                <h6 class="hblacklight">E-commerce</h6>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-myyellow text-black">
+                                        <div class="card-body fs-6 text">Growing New Age Businesses</div>
+                                    </div>
+                                </div>
+                                <h6 class="hblacklight">Pharma</h6>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-myyellow text-black">
+                                        <div class="card-body fs-6 text">Increasing Health Concerns</div>
+                                    </div>
+                                </div>
+                                <h6 class="hblacklight">FMCG</h6>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-myyellow text-black">
+                                        <div class="card-body fs-6 text">Burgeoning Population</div>
+                                    </div>
+                                </div>
+                                <h6 class="hblacklight">FMCG</h6>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-myyellow text-black">
+                                        <div class="card-body fs-6 text">Increasing Brand Consciousness</div>
+                                    </div>
+                                </div>
+                                <h6 class="hblacklight">Durables</h6>
+                                <div class="col-lg-12 col-sm-12 box-height">
+                                    <div class="card bg-myyellow text-black">
+                                        <div class="card-body fs-6 text">Increasing need for Entertainment/ Life Style</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------------------------------------Our Story Section------------------------  -->
+
+    <section id="about" class="about pdd-top-zero">
+        <div class="container" data-aos="fade-up" id="ourstory">
+            <!-- <h3 class="color-txt">Our Story:</h3> -->
+            <div class="section-header">
+                <span class="dis-none">Our Story</span>
+                <h2>Our Story</h2>
+            </div>
+            <div class="col-lg-6 content order-last  order-lg-first col-full-width txt-colp">
+                <p> Founded by industry veterans, who have experienced live situations, Cloverleaf aims to introduce
+                    Industry 4.0 Standards for the printing, converting and packaging industry while further extending
+                    plans to help other industries, which face similar problems.<br><br> They are :</p>
+            </div>
+
+            <ul class="ul-none txt-colp">
+                <li><i class="bi bi-check"></i> Textile & Garments</li>
+                <li><i class="bi bi-check"></i> Metal Processing & Fabrication </li>
+                <li><i class="bi bi-check"></i> Food Processing</li>
+                <li><i class="bi bi-check"></i> Dairy & Beverages</li>
+                <li><i class="bi bi-check"></i> Leather & Shoes </li>
+                <li><i class="bi bi-check"></i> Agri Sector - Jute & Rice Mills</li>
+                <li><i class="bi bi-check"></i> Earth Mining</li>
+            </ul>
+
+            <div class="col-lg-6 content order-last  order-lg-first col-full-width txt-colp" id="vision">
+                <p>At Cloverleaf our service offerings will leverage such standards and learnings to improve machine
+                    performance, productivity and run times. In turn enhancing returns for machine owners.
+                    Widely said interchangeably as the Fourth Industrial Revolution, Industry 4.0 at its core refers to
+                    the “smart” and connected production systems that are designed to sense, predict, and interact with
+                    the physical world, so as to make decisions and take actions that support production processes.
+                    Anticipating faults and foreseeing machine conditions, remotely by digitally wiring up a system to
+                    help take just-in-time actions. This is what Cloverleaf is set to follow.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="about pdd-top-zero">
+        <div class="container" data-aos="fade-up" id="servicecycle">
+            <div class="section-header">
+                <span class="dis-none">Our service Cycle</span>
+                <h2>Our service Cycle</h2>
+            </div>
+            <div class="col-lg-6 position-relative align-self-start order-lg-last order-first col-full-width">
+                <img src="<?=base_url("assets/img/cycleService.webp"); ?>" class="img-fluid" alt="about-us">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------------------------------------Our Story Section------------------------  -->
+
+    <section id="about" class="about pdd-top-zero">
+        <div class="container" data-aos="fade-up" id="ourstory">
+
+            <div class="section-header">
+                <span class="dis-none">Vision</span>
+                <h2>Vision</h2>
+            </div>
+            <div class="col-lg-6 content order-last  order-lg-first col-full-width txt-colp">
+                <p class="text-center"><strong>WE AIM TO DEFINE THE FUTURE OF MACHINE SERVICE.</strong></p>
+            </div>
+
+            <!-- <h3 class="color-txt pd-top">Mission:</h3> -->
+            <div class="section-header" id="mission">
+                <span class="dis-none">Mission</span>
+                <h2>Mission</h2>
+                <ul class="d-flex shape-sec d-flex shape-sec  flex-sm-column flex-lg-row">
+                    <li class="position-relative d-flex flex-column">
+                            <div class="shape-div">
+                              <div class="child-1 bg-yellow"><span>01</span></div>
+														</div>
+														<div class="text-bottom">
+                                    <h6 class="text-uppercase w-bolder">CloverLeaf</h6>
+                                    <p class="fw-bolder">Aims to make machine owners,</p>
+                            </div>
+                               
+                    </li>
+                    <li class="position-relative d-flex flex-column">
+                            <div class="shape-div">
+                                <div class="child-2 bg-orange"><span>02</span></div>
+														</div>
+														<div class="text-bottom">
+                                    <p class="fw-bolder">more productive & profitable,</p>
+                            </div> 
+                    </li>
+                    <li class="position-relative d-flex flex-column">
+                           <div class="shape-div">
+                                <div class="child-3 bg-red"><span>03</span></div>
+													</div>
+														<div class="text-bottom">
+                                   <p class="fw-bolder">by creating efficiency in the production value chain,</p>
+                            </div>
+                    </li>
+                    <li class="position-relative d-flex flex-column">
+                           <div class="shape-div">
+                                <div class="child-4 bg-skye-blue"><span>04</span></div>
+														</div>
+														<div class="text-bottom">
+                                    <p class="fw-bolder">creating winning standards along the value chain,</p>
+                            </div>
+                    </li>
+                    <li class="position-relative d-flex flex-column">
+                            <div class="shape-div">
+                                <div class="child-5 bg-skye-light-blue"><span>05</span></div>
+														</div>
+														<div class="text-bottom">
+                                   <p class="fw-bolder">from a single window by leveraging digital technology.</p>
+                            </div>
+                    </li>
+                    <li class="position-relative d-flex flex-column">
+                            <div class="shape-div">
+                                <div class="child-6 bg-skye-dark-blue"><span>06</span></div>
+														</div>
+														<div class="text-bottom">
+                                   <p class="fw-bolder">We aim to make machine maintainance hassle free</p>
+                            </div>
+                    </li>
+                </ul>
+							
+
+            </div>
+
+            <!-- <h3 class="color-txt pd-top">What are we solving for:</h3>   -->
+            <!-- <div class="section-header" id="what">
+                <span>What are we solving for</span>
+                <h2>What are we solving for</h2>
+									<div class="container">
+										 <div class="row">
+													 <div class="col-12 col-lg-1"></div>
+													 <div class="col-12 col-lg-2 col-12 align-items-sm-center d-sm-flex flex-sm-column justify-content-sm-center">
+															<div class="black-text bg-black-div bg-black text-white  rounded-3">High Ownership Cost</div>
+															<div class="hexagon-1 bg-skye-dark-blue">
+															Reducing Overall Ownership Cost
+															</div>
+													 </div>
+													 <div class="col-12  col-lg-2 align-items-sm-center d-sm-flex flex-sm-column justify-content-sm-center ">
+															<div class="black-text bg-black-div bg-black text-white  rounded-3">Low First Time Fix Rate</div>
+															<div class="hexagon-1 bg-orange">Increasing First Fix Rate (FTFR)</div>
+													 </div>
+													 <div class="col-12  col-lg-2 align-items-sm-center d-sm-flex flex-sm-column justify-content-sm-center">
+															<div class="black-text bg-black-div bg-black text-white  rounded-3">High Restoration Meantime</div>
+															<div class="hexagon-1 bg-yellow">Decreasing Meantime To Restoration (MTTR)</div>
+													 </div>
+													 <div class="col-12  col-lg-2 align-items-sm-center d-sm-flex flex-sm-column justify-content-sm-center">
+															<div class="black-text bg-black-div bg-black text-white  rounded-3">Low Meantime Between Failure</div>
+															<div class="hexagon-1 bg-secondary">Increasing Meantime Between Failures(MTBF)</div>
+													 </div>
+													 <div class="col-12  col-lg-2 align-items-sm-center d-sm-flex flex-sm-column justify-content-sm-center">
+															<div class="black-text bg-black-div bg-black text-white  rounded-3">Low Machine Productivity</div>
+															<div class="hexagon-1 bg-red">Enhancing Machine Productivity</div>
+													 </div>
+													  <div class="col-12  col-lg-1"></div>
+											</div>
+											
+											
+									</div>
+            </div> -->
+            <section id="features" class="features" >
+        <div class="container" id="what">
+          
+          <div class="section-header">
+            <span class="dis-none">What are we solving for</span>
+            <h2>What are we solving for</h2>
+          </div>
+          <img src="<?=base_url("assets/img/S2.png"); ?>" style="width:100%" alt="qwerty">
+          <!-- howSS.webp -->
+
+        </div>
+  </section>
+
+            <!-- <h3 class="color-txt pd-top">How</h3>   -->
+            <div class="section-header" id="how">
+                <span class="dis-none">How</span>
+                <h2> How</h2>
+				<div class="row">
+					<div class="col-12 col-lg-12">
+							<ol class="num">
+								 <div class="row">
+									<div class="col-12 col-lg-6">
+									<li class="li-first">We will do this by creating a customised digital workflow, to capture pecularities of each customer and their shop floor.</li>
+									<li class="li-second">This digital work flow will create a line of sight and map machine, material & manpower, like an ‘Eye in the Sky’.</li>
+									<li class="li-third">This will enable a seamless, hassle free ‘Just in time’ service of your printing, converting and packaging assets.</li>
+									</div>
+									<div class="col-12 col-lg-6">
+									<li class="li-fourth">These data driven dashboards will reflect machine health & records and help me quick, informed decisions.</li>
+									<li class="li-fifth">In addition, a ‘Marketplace’ model for spares, consumables, engineers will provide transparency.</li>
+									<li class="li-sisth">It will introduce ‘Industry 4.0’ standards to the printing, converting and packaging industry sector.</li>
+							
+									</div>
+								 </div>
+						    <ol>
+					</div>
+					
+				</div>
+
+	    </div>
+
+            <!-- <div class="col-lg-6 position-relative align-self-start order-lg-last order-first col-full-width">
+                <img src="<?=base_url("assets/img/how.webp"); ?>" class="img-fluid" alt="about-us">
+            </div> -->
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+</main>
