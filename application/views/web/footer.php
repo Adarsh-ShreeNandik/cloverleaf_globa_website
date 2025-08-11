@@ -114,9 +114,15 @@ h1.cName {
       <h4>Contact Us</h4>
       <p>
         <!-- <span class="txt-col">Delhi Ncr:</span> <br>  -->
-        <strong>Address:</strong> 202, 2nd Floor, Tower-C, ITHUM,
+        <strong>Registered Office:</strong> 202, 2nd Floor, Tower-C, ITHUM,
         Plot No. A-40, Sector 62, Noida,
-        Gautam Buddha Nagar, U.P. 201301 <br>
+        U.P. 201301 <br>
+        <strong>Corporate Office:</strong> 208, 2nd Floor A-1,
+        Sector 3, Noida, U.P. 201301 <br>
+        <strong>Branch Office:</strong> 403, City Tower, 250C,
+        Boat Club Rd, Bund Garden, Sangamwadi,
+        Pune Maharashtra. 411001 <br>
+       
         <!-- <span class="txt-col">Pune:</span> <br>
         <strong>Address:</strong> 403, 4th floor, City Tower, Kolte Patil 
 Commercial Complex, Boat club Road, 
